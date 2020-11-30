@@ -26,4 +26,4 @@ def ok():
   randomListNumber = [random.randint(1, lengthLista * 2) for _ in range(lengthLista)]
   return jsonify(mergeSort(randomListNumber)), 200
 
-app.run(port = 3001)
+app.run(port = 3000)
